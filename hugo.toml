@@ -1,7 +1,6 @@
 languageCode = 'en-us'
 
 baseURL = 'https://fnko.cc/'
-enableRobotsTXT = true
 
 author = 'feenko'
 title = 'f[ee]nko'
