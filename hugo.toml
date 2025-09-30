@@ -1,0 +1,51 @@
+languageCode = 'en-us'
+
+baseURL = 'https://fnko.cc/'
+enableRobotsTXT = true
+
+author = 'feenko'
+title = 'f[ee]nko'
+theme = 'feenkoism'
+
+[params]
+  description = 'so uhh.. we provide basically nothing'
+
+  [[params.buttons]]
+    src = "best_viewed_with_eyes.gif"
+    alt = "Best viewed with eyes"
+
+  [[params.buttons]]
+    src = "catscape3.gif"
+    alt = "Catscape Meow 3.0"
+
+  [[params.buttons]]
+    src = "valid-css-blue.gif"
+    alt = "W3C Valid CSS"
+
+  [[params.buttons]]
+    src = "valid-html5.gif"
+    alt = "W3C Valid HTML5"
+
+  [[params.buttons]]
+    src = "gnu-linux.gif"
+    alt = "Made on GNU/Linux"
+
+  [[params.buttons]]
+    src = "bu12.gif"
+    alt = "This website is gay"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Contact'
+    url = 'mailto:feenko@fnko.cc'
+    weight = 20
+
+  [[menus.main]]
+    name = 'GPG Key'
+    url = 'feenko.asc'
+    weight = 30

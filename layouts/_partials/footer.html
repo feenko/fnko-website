@@ -1,0 +1,11 @@
+<p>Copyright © {{ now.Year }}. Licensed under the
+  <a href="https://spdx.org/licenses/AGPL-3.0-or-later.html" target="_blank" rel="noopener noreferrer">GNU Affero General Public License v3.0</a>.
+  <a href="https://github.com/feenko/fnko-website" target="_blank" rel="noopener noreferrer">Source code available on GitHub</a>.
+</p>
+<div>
+  {{ range $button := site.Params.buttons }}
+    {{ with resources.Get (printf "buttons/%s" .src) }}
+      <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $button.alt }}">
+    {{ end }}
+  {{ end }}
+</div>

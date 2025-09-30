@@ -1,0 +1,63 @@
+main {
+  line-height: 1.6;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+main p {
+  margin-bottom: 1rem;
+}
+
+main ul,
+main ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+main li + li {
+  margin-top: 0.5rem;
+}
+
+main blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid #ccc;
+  color: #555;
+  font-style: italic;
+}
+
+main hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem 0;
+}
+
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+main th,
+main td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
