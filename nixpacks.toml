@@ -1,11 +1,9 @@
 [phases.setup]
-aptPkgs = ["hugo"]
+nixPkgs = ["hugo"]
+nixpkgsArchive = "a306114fe136282dee70782bd05e52f20315a700"
 
 [phases.build]
 cmds = ["hugo --minify"]
-
-[environment]
-HUGO_VERSION = "0.150.1"
 
 [[nixpacks.included_files]]
 paths = ["/public"]
